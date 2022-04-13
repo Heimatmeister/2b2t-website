@@ -1,10 +1,10 @@
 import Head from "next/head";
 
 export default function SEOHeader() {
-    const seoTitle = '6builders 6tools';
-    const seoDescription = '6b6t.org is a Minecraft cracked anarchy server with /tpa and /home. IP: 6b6t.org';
+    const seoTitle = '2builders 2tools';
+    const seoDescription = '2builders2tools is a minecraft server with the goal to never reset the world in a free for all no rules pvp environment, with little modification to the vanilla survival gamemode.';
     const seoImage = 'https://6b6t.org/logo.png';
-    const seoUrl = 'https://6b6t.org';
+    const seoUrl = 'https://www.2b2t.com.de';
 
     return (
         <Head>
@@ -15,7 +15,7 @@ export default function SEOHeader() {
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
             <meta name="keywords"
-                  content="6b6t, cracked anarchy, 2b2t alternative, anarchy minecraft server, anarchy server like 2b2t"/>
+                  content="2b2t, german 2b2t, 2b2t alternative, anarchy minecraft server, anarchy server like 2b2t"/>
             <meta name="author" content="AlexProgrammerDE"/>
             <meta name="description" content={seoDescription}/>
 
